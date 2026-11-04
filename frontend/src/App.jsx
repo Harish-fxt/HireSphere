@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css'; // Connects to your custom regular CSS file
-
 export default function App() {
   // Using React state to hold your dynamic job object variables
   const [jobs, setJobs] = useState([
